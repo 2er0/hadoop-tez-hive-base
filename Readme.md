@@ -7,9 +7,9 @@ With Oracle JDK8 and Hadoop 3.1.1 and Tez 0.9.1
 ## Usage
 
 ```
-docker run -it 2er0/hadoop-tez-hive-base:latest
+docker run -it 2ero/hadoop-tez-hive-base:latest
 # or
-docker run -it -v $(pwd):/data -p 8088:8088 -p 9870:9870 -p 10000:10000 2er0/hadoop-tez-hive-base:latest
+docker run -it -v $(pwd):/data -p 8088:8088 -p 9870:9870 -p 10000:10000 2ero/hadoop-tez-hive-base:latest
 # starting an existing container
 docker start -ai <CONTAINER-ID/NAME>
 ```
